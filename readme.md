@@ -14,7 +14,7 @@ cd altcaps
 Maybe you have a lot of alt caps action in your life. You can even add this line to your .zshrc/.bashrc/bash.profile.
 
 ```
-alias altcaps=deno run --allow-run ~<path-to-altcaps>/altcaps.ts'
+alias altcaps='deno run --allow-run ~<path-to-altcaps>/altcaps.ts'
 ```
 
 ### Run it
