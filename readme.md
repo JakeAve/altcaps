@@ -33,4 +33,4 @@ altcaps "Why are alt caps so important in your life??"
 
 ### Compile it
 
-So in the `dist` folder, we got some executables. Naturally, I didn't test them all, so good luck with that.
+You can compile with something like `deno compile --allow-run --target=<your-os> src/altcaps.ts`, but that binary be like 80MB. I also added binaries to the release so you can download malware from me instead of compiling your own.
