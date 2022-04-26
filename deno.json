@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "altcaps": "deno run altcaps.ts",
+    "build": "deno task build:lin && deno task build:mac86 && deno task build:macarm && deno task build:win && echo '\n\nBuIlT tHeM aLl'",
+    "build:lin": "deno compile --target x86_64-unknown-linux-gnu --allow-run --output $PWD/dist/altcaps-x86_64-unknown-linux-gnu altcaps.ts",
+    "build:mac86": "deno compile --target x86_64-apple-darwin --allow-run --output $PWD/dist/altcaps-x86_64-apple-darwin altcaps.ts",
+    "build:macarm": "deno compile --target aarch64-apple-darwin --allow-run --output $PWD/dist/altcaps-aarch64-apple-darwin altcaps.ts",
+    "build:win": "deno compile --target x86_64-pc-windows-msvc --allow-run --output $PWD/dist/altcaps-x86_64-pc-windows-msvc altcaps.ts"
+  },
+  "fmt": {
+    "options": {
+      "singleQuote": true
+    }
+  }
+}
