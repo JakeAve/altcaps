@@ -76,7 +76,7 @@ alias altcaps='~/<path-to-altcaps>/altcaps/dist/altcaps-aarch64-apple-darwin'
 If you think this is the dAnKeSt ThInG you've ever seen, you can import `toAltcaps`:
 
 ```
-import { toAltcaps } from 'https://raw.githubusercontent.com/JakeAve/altcaps/main/altcaps.ts'
+import { toAltcaps } from 'https://raw.githubusercontent.com/JakeAve/altcaps/main/mod.ts'
 ```
 
 But since it's TS for no super good reason, you'll probably only be able to use it in deno.
